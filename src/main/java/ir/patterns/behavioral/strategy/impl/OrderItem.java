@@ -18,7 +18,7 @@ public class OrderItem {
 		Random rand = new Random();
 		rand.nextBytes(name);
 		this.setTitle(new String(name, Charset.defaultCharset()));
-		this.setPrice(rand.nextInt(0, 100));
+		this.setPrice(rand.nextInt(101));
 		this.setPackageSize(PackageSize.values()[rand.nextInt(4)]);
 	}
 

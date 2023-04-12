@@ -14,6 +14,6 @@ public class RecivedState implements IPackageState {
 
 	@Override
 	public String getState() {
-		return RecivedState.class.getName();
+		return RecivedState.class.getSimpleName();
 	}
 }
