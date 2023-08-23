@@ -10,8 +10,8 @@ import ir.patterns.behavioral.command.impl.Shape.Color;
  */
 public class ChangeColorCommand implements ICommand {
 
-	private Shape shape;
-	private Color previuos;
+	private final Shape shape;
+	private final Color previuos;
 	
 	public ChangeColorCommand(Shape shape) {
 		this.shape = shape;
