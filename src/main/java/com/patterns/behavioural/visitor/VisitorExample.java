@@ -1,7 +1,6 @@
 package com.patterns.behavioural.visitor;
 
 import com.patterns.behavioural.visitor.impl.*;
-import ir.patterns.behavioural.visitor.impl.*;
 
 import java.util.ArrayList;
 import java.util.List;

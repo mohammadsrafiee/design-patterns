@@ -1,7 +1,6 @@
 package com.patterns.behavioural.observer;
 
 import com.patterns.behavioural.observer.impl.*;
-import ir.patterns.behavioural.observer.impl.*;
 
 /**
  * Observer is a behavioral design pattern that allows some objects to

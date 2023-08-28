@@ -1,7 +1,6 @@
 package com.patterns.behavioural.command;
 
 import com.patterns.behavioural.command.impl.*;
-import ir.patterns.behavioural.command.impl.*;
 
 import java.util.Random;
 
