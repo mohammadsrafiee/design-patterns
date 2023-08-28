@@ -41,6 +41,20 @@ import java.util.Map;
  *     </li>
  *     <li>
  *         <strong><em>Structure</em></strong>:
+ *         <ul>
+ *             <li>Abstract Factory</li>:
+ *             This is an interface or an abstract class that declares a set of creation methods for
+ *             each type of product in the family. It represents the contract for concrete factories to follow.
+ *             <li>Concrete Factories</li>: These are classes that implement the abstract factory
+ *             interface. Each concrete factory is responsible for creating a family of related products.
+ *             <li>Abstract Products</li>: These are interfaces or abstract classes that declare the
+ *             common methods that all products in a family must implement.
+ *             <li>Concrete Products</li>: These are classes that implement the abstract product interfaces.
+ *             Concrete products belong to a specific family and implement the common methods defined by their
+ *             corresponding abstract product.
+ *             <li>Client</li>: The client code interacts with the abstract factory and the abstract product
+ *             interfaces. It remains unaware of the specific concrete classes it uses, relying solely on the abstract interfaces.
+ *         </ul>
  *     </li>
  *     <li>
  *         <strong><em>Flexibility</em></strong>: The Abstract Factory pattern provides flexibility by
