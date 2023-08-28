@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91a74a63-854e-42ce-a0f9-2260aef4e71a" name="Changes" comment="change package name from ir to com">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/AbstractFactoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/RoundedShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/StraightShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/families/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/families/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/families/concrete/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/families/concrete/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/families/concrete/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/impl/families/concrete/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/abstractfactory/abstract-factory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/abstractfactory/abstract-factory.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/abstractfactory/abstract-factory.vsdx" afterDir="false" />
+    <list default="true" id="91a74a63-854e-42ce-a0f9-2260aef4e71a" name="Changes" comment="edit some text in resource that related to abstract factory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/chain/of/responsibility/ChainOfResponsibilityExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/chain/of/responsibility/ChainOfResponsibilityExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/command/CommandExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/command/CommandExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/observer/ObserverExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/observer/ObserverExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/strategy/StrategyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/strategy/StrategyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/visitor/VisitorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/behavioural/visitor/VisitorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/AbstractFactoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/abstractfactory/AbstractFactoryExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692423077705</updated>
       <workItem from="1692423081678" duration="17928000" />
-      <workItem from="1692534414240" duration="12226000" />
+      <workItem from="1692534414240" duration="13168000" />
     </task>
     <task id="LOCAL-00001" summary="change execution on Command Pattern">
       <created>1692767937410</created>
@@ -130,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693114067573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add abstract factory design pattern for creational design pattern">
+      <created>1693207717347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693207717347</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edit some text in resource that related to abstract factory">
+      <created>1693207934329</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693207934329</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +148,8 @@
     <MESSAGE value="change execution on Command Pattern" />
     <MESSAGE value="change package name from behavioral to behavioural" />
     <MESSAGE value="change package name from ir to com" />
-    <option name="LAST_COMMIT_MESSAGE" value="change package name from ir to com" />
+    <MESSAGE value="add abstract factory design pattern for creational design pattern" />
+    <MESSAGE value="edit some text in resource that related to abstract factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit some text in resource that related to abstract factory" />
   </component>
 </project>
