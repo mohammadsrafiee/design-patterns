@@ -1,8 +1,8 @@
 package com.patterns.creational.abstractfactory;
 
 import com.patterns.creational.abstractfactory.impl.AbstractFactory;
-import com.patterns.creational.abstractfactory.impl.RoundedShapeFactory;
-import com.patterns.creational.abstractfactory.impl.StraightShapeFactory;
+import com.patterns.creational.abstractfactory.impl.factory.RoundedShapeFactory;
+import com.patterns.creational.abstractfactory.impl.factory.StraightShapeFactory;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,5 +1,6 @@
-package com.patterns.creational.abstractfactory.impl;
+package com.patterns.creational.abstractfactory.impl.factory;
 
+import com.patterns.creational.abstractfactory.impl.AbstractFactory;
 import com.patterns.creational.abstractfactory.impl.families.Color;
 import com.patterns.creational.abstractfactory.impl.families.Shape;
 import com.patterns.creational.abstractfactory.impl.families.concrete.Blue;

@@ -2,12 +2,107 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="116.25" y="236.0">com.patterns.creational.abstractfactory.AbstractFactoryExample</node>
+    <node x="-16.75" y="87.0">com.patterns.creational.abstractfactory.impl.RoundedShapeFactory</node>
+    <node x="-105.0" y="-40.0">com.patterns.creational.abstractfactory.impl.families.concrete.Circle</node>
+    <node x="445.0" y="-40.0">com.patterns.creational.abstractfactory.impl.families.concrete.Blue</node>
+    <node x="105.5" y="-144.0">com.patterns.creational.abstractfactory.impl.families.Shape</node>
+    <node x="140.0" y="-39.5">com.patterns.creational.abstractfactory.impl.AbstractFactory</node>
+    <node x="316.0" y="-40.0">com.patterns.creational.abstractfactory.impl.families.concrete.Square</node>
+    <node x="259.0" y="87.0">com.patterns.creational.abstractfactory.impl.StraightShapeFactory</node>
+    <node x="24.0" y="-40.0">com.patterns.creational.abstractfactory.impl.families.concrete.Red</node>
+    <node x="234.5" y="-144.0">com.patterns.creational.abstractfactory.impl.families.Color</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="511.0" y="31.0" />
+  <edges>
+    <edge source="com.patterns.creational.abstractfactory.impl.StraightShapeFactory" target="com.patterns.creational.abstractfactory.impl.AbstractFactory" relationship="REALIZATION">
+      <point x="-48.25" y="-49.5" />
+      <point x="307.25" y="67.0" />
+      <point x="218.0" y="67.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.AbstractFactoryExample" target="com.patterns.creational.abstractfactory.impl.StraightShapeFactory" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="222.25" y="211.0" />
+      <point x="355.5" y="211.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.AbstractFactoryExample" target="com.patterns.creational.abstractfactory.impl.RoundedShapeFactory" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="222.25" y="211.0" />
+      <point x="83.75" y="211.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.RoundedShapeFactory" target="com.patterns.creational.abstractfactory.impl.AbstractFactory" relationship="REALIZATION">
+      <point x="50.25" y="-49.5" />
+      <point x="134.0" y="67.0" />
+      <point x="218.0" y="67.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.StraightShapeFactory" target="com.patterns.creational.abstractfactory.impl.families.concrete.Square" relationship="CREATE">
+      <point x="48.25" y="-49.5" />
+      <point x="403.75" y="67.0" />
+      <point x="431.75" y="67.0" />
+      <point x="431.75" y="57.0" />
+      <point x="370.5" y="57.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.RoundedShapeFactory" target="com.patterns.creational.abstractfactory.impl.families.concrete.Circle" relationship="CREATE">
+      <point x="-50.25" y="-49.5" />
+      <point x="33.5" y="67.0" />
+      <point x="10.75" y="67.0" />
+      <point x="10.75" y="57.0" />
+      <point x="-50.5" y="57.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.families.concrete.Square" target="com.patterns.creational.abstractfactory.impl.families.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="370.5" y="-60.0" />
+      <point x="160.0" y="-60.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.families.concrete.Blue" target="com.patterns.creational.abstractfactory.impl.families.Color" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="493.0" y="-70.0" />
+      <point x="282.5" y="-70.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.RoundedShapeFactory" target="com.patterns.creational.abstractfactory.impl.families.concrete.Red" relationship="CREATE">
+      <point x="-50.25" y="-49.5" />
+      <point x="33.5" y="67.0" />
+      <point x="10.75" y="67.0" />
+      <point x="10.75" y="57.0" />
+      <point x="72.0" y="57.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.families.concrete.Circle" target="com.patterns.creational.abstractfactory.impl.families.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="-50.5" y="-60.0" />
+      <point x="160.0" y="-60.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.families.concrete.Red" target="com.patterns.creational.abstractfactory.impl.families.Color" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="72.0" y="-70.0" />
+      <point x="282.5" y="-70.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.StraightShapeFactory" target="com.patterns.creational.abstractfactory.impl.families.concrete.Blue" relationship="CREATE">
+      <point x="48.25" y="-49.5" />
+      <point x="403.75" y="67.0" />
+      <point x="431.75" y="67.0" />
+      <point x="431.75" y="57.0" />
+      <point x="493.0" y="57.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="228.0" y="94.5" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>
