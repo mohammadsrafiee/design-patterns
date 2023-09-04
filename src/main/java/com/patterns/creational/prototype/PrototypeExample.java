@@ -5,7 +5,7 @@ import com.patterns.creational.prototype.impl.products.ShapeType;
 
 /**
  * <p>
- * <strong>Prototype</strong> Prototype is a creational design pattern that lets you copy
+ * <strong>Prototype</strong> is a creational design pattern that lets you copy
  * existing objects without making your code dependent on their classes.
  * The Prototype design pattern is a creational design pattern that deals with object
  * creation by cloning existing objects, known as prototypes, rather than creating new
