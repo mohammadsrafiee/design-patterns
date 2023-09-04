@@ -35,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/rafiee/Desktop/WS/design-patterns",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -59,6 +59,7 @@
       <updated>1692423077705</updated>
       <workItem from="1692423081678" duration="17928000" />
       <workItem from="1692534414240" duration="5239000" />
+      <workItem from="1693838840656" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="change execution on Command Pattern">
       <created>1692767937410</created>
