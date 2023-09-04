@@ -4,30 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a74a63-854e-42ce-a0f9-2260aef4e71a" name="Changes" comment="Added multiple description for Abstract Factory design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/BuilderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/PizzaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/PizzaDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/builders/MargheritaPizzaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/builders/PepperoniPizzaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/builders/RecipeMargheritaPizzaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/builders/RecipePepperoniPizzaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/features/Crust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/features/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/features/Topping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/product/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/product/RecipePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/PrototypeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/CloneableShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/ShapeCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/products/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/products/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/products/ShapeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/builder/builder.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.uml" afterDir="false" />
+    <list default="true" id="91a74a63-854e-42ce-a0f9-2260aef4e71a" name="Changes" comment="add Builder and Prototype Creational Patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype-desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.vsdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/creational/factorymethod/factory-method.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/creational/factorymethod/factory-method.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/PrototypeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/PrototypeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/ShapeCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.uml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/rafiee/Desktop/WS/design-patterns/src/main/java/resources/creational/prototype",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rafiee/Desktop/WS/design-patterns/src/main/java/resources/creational/prototype&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rafiee\Desktop\WS\design-patterns\src\main\java\resources\creational\prototype" />
@@ -128,7 +112,8 @@
       <workItem from="1692423081678" duration="17928000" />
       <workItem from="1692534414240" duration="13168000" />
       <workItem from="1693257981501" duration="6000000" />
-      <workItem from="1693780131748" duration="3982000" />
+      <workItem from="1693780131748" duration="4221000" />
+      <workItem from="1693811752553" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="change execution on Command Pattern">
       <created>1692767937410</created>
@@ -165,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693207934329</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Builder and Prototype Creational Patterns">
+      <created>1693804947417</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693804947417</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +180,7 @@
     <MESSAGE value="change package name from ir to com" />
     <MESSAGE value="add abstract factory design pattern for creational design pattern" />
     <MESSAGE value="edit some text in resource that related to abstract factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit some text in resource that related to abstract factory" />
+    <MESSAGE value="add Builder and Prototype Creational Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Builder and Prototype Creational Patterns" />
   </component>
 </project>

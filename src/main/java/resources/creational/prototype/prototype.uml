@@ -3,48 +3,57 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="32.75" y="305.0">com.patterns.creational.prototype.impl.ShapeCache</node>
-    <node x="-14.5" y="154.0">com.patterns.creational.prototype.impl.products.Rectangle</node>
-    <node x="213.5" y="154.0">com.patterns.creational.prototype.impl.products.Circle</node>
-    <node x="-25.0" y="449.0">com.patterns.creational.prototype.PrototypeExample</node>
-    <node x="42.25" y="26.0">com.patterns.creational.prototype.impl.CloneableShape</node>
+    <node x="98.99999999999999" y="13.0">com.patterns.creational.prototype.impl.CloneableShape</node>
+    <node x="-15.0" y="292.0">com.patterns.creational.prototype.impl.ShapeCache</node>
+    <node x="267.25" y="141.0">com.patterns.creational.prototype.impl.products.Circle</node>
+    <node x="43.25" y="141.0">com.patterns.creational.prototype.impl.products.Rectangle</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.patterns.creational.prototype.impl.products.Circle" target="com.patterns.creational.prototype.impl.CloneableShape" relationship="REALIZATION">
       <point x="0.0" y="-49.5" />
-      <point x="317.5" y="133.0" />
-      <point x="203.5" y="133.0" />
-      <point x="203.5" y="123.0" />
-      <point x="198.25" y="123.0" />
-      <point x="52.0" y="38.0" />
+      <point x="369.25" y="120.0" />
+      <point x="257.25" y="120.0" />
+      <point x="257.25" y="110.0" />
+      <point x="252.0" y="110.0" />
+      <point x="51.0" y="38.0" />
     </edge>
     <edge source="com.patterns.creational.prototype.impl.ShapeCache" target="com.patterns.creational.prototype.impl.CloneableShape" relationship="TO_MANY">
-      <point x="-113.5" y="-0.0" />
-      <point x="-42.5" y="354.5" />
-      <point x="-42.5" y="64.0" />
-      <point x="-104.0" y="-0.0" />
+      <point x="-108.0" y="-49.5" />
+      <point x="93.0" y="271.0" />
+      <point x="32.74999999999997" y="271.0" />
+      <point x="32.74999999999997" y="110.0" />
+      <point x="150.0" y="110.0" />
+      <point x="-51.0" y="38.0" />
     </edge>
     <edge source="com.patterns.creational.prototype.impl.ShapeCache" target="com.patterns.creational.prototype.impl.products.Circle" relationship="CREATE">
-      <point x="106.0" y="-49.5" />
-      <point x="-65.25" y="49.5" />
+      <point x="108.0" y="-49.5" />
+      <point x="309.0" y="271.0" />
+      <point x="257.25" y="271.0" />
+      <point x="257.25" y="261.0" />
+      <point x="369.25" y="261.0" />
+      <point x="0.0" y="49.5" />
     </edge>
     <edge source="com.patterns.creational.prototype.impl.products.Rectangle" target="com.patterns.creational.prototype.impl.CloneableShape" relationship="REALIZATION">
       <point x="0.0" y="-49.5" />
-      <point x="89.5" y="133.0" />
-      <point x="203.5" y="133.0" />
-      <point x="203.5" y="123.0" />
-      <point x="198.25" y="123.0" />
-      <point x="52.0" y="38.0" />
+      <point x="145.25" y="120.0" />
+      <point x="257.25" y="120.0" />
+      <point x="257.25" y="110.0" />
+      <point x="252.0" y="110.0" />
+      <point x="51.0" y="38.0" />
     </edge>
     <edge source="com.patterns.creational.prototype.impl.ShapeCache" target="com.patterns.creational.prototype.impl.products.Rectangle" relationship="CREATE">
-      <point x="-56.75" y="-49.5" />
-      <point x="-0.0" y="49.5" />
+      <point x="108.0" y="-49.5" />
+      <point x="309.0" y="271.0" />
+      <point x="257.25" y="271.0" />
+      <point x="257.25" y="261.0" />
+      <point x="145.25" y="261.0" />
+      <point x="0.0" y="49.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.2673076923076922" showDependencies="true" x="208.5" y="322.9453717754173" />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="238.50000000000006" y="212.0" />
   <SelectedNodes>
-    <node>com.patterns.creational.prototype.PrototypeExample</node>
+    <node>com.patterns.creational.prototype.impl.ShapeCache</node>
   </SelectedNodes>
   <Categories>
     <Category>Constructors</Category>

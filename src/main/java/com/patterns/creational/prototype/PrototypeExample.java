@@ -68,11 +68,11 @@ import com.patterns.creational.prototype.impl.products.ShapeType;
 public class PrototypeExample {
 
     public static void main(String[] args) {
-        ShapeCache.loadCache();
-        ShapeCache.getShape(ShapeType.CIRCLE).draw();
-        ShapeCache.getShape(ShapeType.CIRCLE).draw();
-        ShapeCache.getShape(ShapeType.CIRCLE).draw();
-        ShapeCache.getShape(ShapeType.RECTANGLE).draw();
-        ShapeCache.getShape(ShapeType.RECTANGLE).draw();
+        ShapeCache cache = new ShapeCache(); // we use singleton cache Object or use Utility class for this caching
+        cache.getShape(ShapeType.CIRCLE).draw();
+        cache.getShape(ShapeType.CIRCLE).draw();
+        cache.getShape(ShapeType.CIRCLE).draw();
+        cache.getShape(ShapeType.RECTANGLE).draw();
+        cache.getShape(ShapeType.RECTANGLE).draw();
     }
 }
