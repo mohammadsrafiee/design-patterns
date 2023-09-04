@@ -1,7 +1,6 @@
 package com.patterns.behavioural.chain.of.responsibility;
 
 import com.patterns.behavioural.chain.of.responsibility.impl.*;
-import ir.patterns.behavioural.chain.of.responsibility.impl.*;
 
 /**
  * Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of

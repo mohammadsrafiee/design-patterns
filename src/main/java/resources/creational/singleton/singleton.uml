@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-123.0" y="-50.0">com.patterns.creational.sigleton.impl.NotThreadSafeSingleton</node>
+    <node x="-113.0" y="65.33333333333334">com.patterns.creational.sigleton.impl.ThreadSafeSingleton</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="9.5" y="142.5" />
+  <SelectedNodes>
+    <node>com.patterns.creational.sigleton.impl.NotThreadSafeSingleton</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

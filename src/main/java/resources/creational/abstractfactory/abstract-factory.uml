@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="24.0" y="-40.0">com.patterns.creational.abstractfactory.impl.families.concrete.Red</node>
+    <node x="105.5" y="-144.0">com.patterns.creational.abstractfactory.impl.families.Shape</node>
+    <node x="316.0" y="-40.0">com.patterns.creational.abstractfactory.impl.families.concrete.Square</node>
+    <node x="234.5" y="-144.0">com.patterns.creational.abstractfactory.impl.families.Color</node>
+    <node x="101.66666666666666" y="93.29166666666669">com.patterns.creational.abstractfactory.AbstractFactoryExample</node>
+    <node x="-105.0" y="-40.0">com.patterns.creational.abstractfactory.impl.families.concrete.Circle</node>
+    <node x="140.0" y="-39.5">com.patterns.creational.abstractfactory.impl.AbstractFactory</node>
+    <node x="445.0" y="-40.0">com.patterns.creational.abstractfactory.impl.families.concrete.Blue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.patterns.creational.abstractfactory.impl.families.concrete.Square" target="com.patterns.creational.abstractfactory.impl.families.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="370.5" y="-60.0" />
+      <point x="160.0" y="-60.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.families.concrete.Blue" target="com.patterns.creational.abstractfactory.impl.families.Color" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="493.0" y="-70.0" />
+      <point x="282.5" y="-70.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.families.concrete.Circle" target="com.patterns.creational.abstractfactory.impl.families.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="-50.5" y="-60.0" />
+      <point x="160.0" y="-60.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.patterns.creational.abstractfactory.impl.families.concrete.Red" target="com.patterns.creational.abstractfactory.impl.families.Color" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="72.0" y="-70.0" />
+      <point x="282.5" y="-70.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.96" showDependencies="true" x="567.7291666666667" y="239.93749999999994" />
+  <SelectedNodes>
+    <node>com.patterns.creational.abstractfactory.impl.AbstractFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

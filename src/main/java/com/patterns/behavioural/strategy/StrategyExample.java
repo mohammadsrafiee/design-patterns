@@ -1,7 +1,6 @@
 package com.patterns.behavioural.strategy;
 
 import com.patterns.behavioural.strategy.impl.*;
-import ir.patterns.behavioural.strategy.impl.*;
 
 /**
  * Strategy is a behavioral design pattern that turns a set of behaviors into objects and
