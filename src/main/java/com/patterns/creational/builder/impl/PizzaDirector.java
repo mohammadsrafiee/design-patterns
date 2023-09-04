@@ -6,15 +6,18 @@ package com.patterns.creational.builder.impl;
  * being built.
  */
 public class PizzaDirector {
+    public PizzaDirector() {
 
-    public static void constructPizza(PizzaBuilder builder) {
+    }
+
+    public void constructPizza(PizzaBuilder builder) {
         builder.createNewPizza();
         builder.buildCrust();
         builder.buildSauce();
         builder.buildTopping();
     }
 
-    public static void constructHalfReadyPizza(PizzaBuilder builder) {
+    public void constructHalfReadyPizza(PizzaBuilder builder) {
         builder.createNewPizza();
         builder.buildCrust();
         builder.buildSauce();

@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a74a63-854e-42ce-a0f9-2260aef4e71a" name="Changes" comment="add Builder and Prototype Creational Patterns">
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype-desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.vsdx" afterDir="false" />
+    <list default="true" id="91a74a63-854e-42ce-a0f9-2260aef4e71a" name="Changes" comment="rename visio document for Prototype Design Pattern in resource folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/PrototypeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/PrototypeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/prototype/impl/ShapeCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/creational/prototype/prototype.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/BuilderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/BuilderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/PizzaDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patterns/creational/builder/impl/PizzaDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/creational/factorymethod/factory-method.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/creational/factorymethod/factory-method.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/creational/factorymethod/factory-method.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/creational/factorymethod/factory-method.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/creational/factorymethod/factory-method.vsdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/creational/factorymethod/factory-method-desc.vsdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
       <workItem from="1692534414240" duration="13168000" />
       <workItem from="1693257981501" duration="6000000" />
       <workItem from="1693780131748" duration="4221000" />
-      <workItem from="1693811752553" duration="1294000" />
+      <workItem from="1693811752553" duration="1747000" />
     </task>
     <task id="LOCAL-00001" summary="change execution on Command Pattern">
       <created>1692767937410</created>
@@ -157,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693804947417</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add documentation for Prototype Design Pattern in resource folder">
+      <created>1693813096142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693813096142</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rename visio document for Prototype Design Pattern in resource folder">
+      <created>1693813138124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693813138124</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +194,8 @@
     <MESSAGE value="add abstract factory design pattern for creational design pattern" />
     <MESSAGE value="edit some text in resource that related to abstract factory" />
     <MESSAGE value="add Builder and Prototype Creational Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Builder and Prototype Creational Patterns" />
+    <MESSAGE value="add documentation for Prototype Design Pattern in resource folder" />
+    <MESSAGE value="rename visio document for Prototype Design Pattern in resource folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename visio document for Prototype Design Pattern in resource folder" />
   </component>
 </project>

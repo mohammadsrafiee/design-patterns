@@ -49,43 +49,44 @@ import com.patterns.creational.builder.impl.product.RecipePizza;
 public class BuilderExample {
 
     public static void main(String[] args) {
+        PizzaDirector director = new PizzaDirector();
 
         {
             MargheritaPizzaBuilder builder = new MargheritaPizzaBuilder();
-            PizzaDirector.constructPizza(builder);
+            director.constructPizza(builder);
             Pizza pizza = builder.getResult();
             System.out.printf("Pizza: %s %n", pizza);
-            PizzaDirector.constructHalfReadyPizza(builder);
+            director.constructHalfReadyPizza(builder);
             pizza = builder.getResult();
             System.out.printf("Pizza: %s %n", pizza);
         }
 
         {
             PepperoniPizzaBuilder builder = new PepperoniPizzaBuilder();
-            PizzaDirector.constructPizza(builder);
+            director.constructPizza(builder);
             Pizza pizza = builder.getResult();
             System.out.printf("Pizza: %s %n", pizza);
-            PizzaDirector.constructHalfReadyPizza(builder);
+            director.constructHalfReadyPizza(builder);
             pizza = builder.getResult();
             System.out.printf("Pizza: %s %n", pizza);
         }
 
         {
             RecipeMargheritaPizzaBuilder builder = new RecipeMargheritaPizzaBuilder();
-            PizzaDirector.constructPizza(builder);
+            director.constructPizza(builder);
             RecipePizza pizza = builder.getResult();
             System.out.printf("Pizza: %s %n", pizza);
-            PizzaDirector.constructHalfReadyPizza(builder);
+            director.constructHalfReadyPizza(builder);
             pizza = builder.getResult();
             System.out.printf("Pizza: %s %n", pizza);
         }
 
         {
             RecipePepperoniPizzaBuilder builder = new RecipePepperoniPizzaBuilder();
-            PizzaDirector.constructPizza(builder);
+            director.constructPizza(builder);
             RecipePizza pizza = builder.getResult();
             System.out.printf("Pizza: %s %n", pizza);
-            PizzaDirector.constructHalfReadyPizza(builder);
+            director.constructHalfReadyPizza(builder);
             pizza = builder.getResult();
             System.out.printf("Pizza: %s %n", pizza);
         }
