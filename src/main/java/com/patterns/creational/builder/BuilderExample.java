@@ -17,7 +17,6 @@ import com.patterns.creational.builder.impl.product.RecipePizza;
  * The Builder pattern is a well-known pattern in Java world. It’s especially useful when you
  * need to create an object with lots of possible configuration options.
  * </p>
- * <p>
  * <ul>
  *     <li>
  *         <strong><em>Intent</em></strong>: The Builder pattern is used when you want to create
@@ -36,44 +35,44 @@ import com.patterns.creational.builder.impl.product.RecipePizza;
  *         configurations, and they can enforce the order of construction steps.
  *     </li>
  * </ul>
- * </p>
- * <p>
  * Here are a few real-world use cases where the Builder pattern can be applied effectively:
  * <ul>
  *     <li>
- *         <strong><em>Database Query Builders</em></em></strong>: When constructing database queries,
+ *         <strong><em>Database Query Builders</em></strong>: When constructing database queries,
  *         especially for SQL databases, you often have a variety of optional clauses like SELECT fields,
  *         WHERE conditions, JOINs, and ORDER BY. A query builder can help construct these queries step by
  *         step without having to deal with complex SQL strings directly.
  *     </li>
  *     <li>
- *         <strong><em>Configuration Builders</em></em></strong>:In applications that require complex
+ *         <strong><em>Configuration Builders</em></strong>:In applications that require complex
  *         configurations with numerous options, such as setting up a server, configuring a game character,
  *         or creating a custom user interface, a builder can be used to construct and modify these
  *         configurations in a more readable and maintainable way.
  *     </li>
  *     <li>
- *         <strong><em>Document Generation</em></em></strong>:When generating complex documents like HTML,
+ *         <strong><em>Document Generation</em></strong>:When generating complex documents like HTML,
  *         XML, or JSON, a builder can help create the structure and content of the document piece by piece.
  *         For instance, in generating HTML pages, you can have builders for headers, paragraphs, tables,
  *         and other HTML elements.
  *     </li>
  *     <li>
- *         <strong><em>Immutable Objects</em></em></strong>: In languages that encourage immutability,
+ *         <strong><em>Immutable Objects</em></strong>: In languages that encourage immutability,
  *         such as Java, you can use a builder to create immutable objects with a large number of properties.
  *         The builder allows you to set each property individually and then build an immutable instance when all
  *         properties are set.
  *     </li>
  *     <li>
- *         <strong><em>Mailing Systems</em></em></strong>:When sending emails or messages, you may have
+ *         <strong><em>Mailing Systems</em></strong>:When sending emails or messages, you may have
  *         various optional components like attachments, headers, and recipients. A message builder can be
  *         used to construct these messages by adding or removing components as needed.
  *     </li>
  * </ul>
- * </p>
  */
 public class BuilderExample {
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         PizzaDirector director = new PizzaDirector();
 

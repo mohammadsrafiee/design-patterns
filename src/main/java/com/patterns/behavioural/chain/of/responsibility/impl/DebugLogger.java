@@ -1,9 +1,17 @@
 package com.patterns.behavioural.chain.of.responsibility.impl;
 
+/**
+ *
+ */
 public class DebugLogger extends LoggerBase {
 
 	private final LogBloc logBloc;
 
+	/**
+	 *
+	 * @param logBloc
+	 * @param nextLogger
+	 */
 	public DebugLogger(LogBloc logBloc, LoggerBase nextLogger) {
 		super(LogMessage.LogLevel.DEBUG, nextLogger);
 		this.logBloc = logBloc;

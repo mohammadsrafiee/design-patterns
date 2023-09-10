@@ -12,6 +12,11 @@ public class Circle implements CloneableShape {
     private final int y;
     private final int radius;
 
+    /**
+     * @param x
+     * @param y
+     * @param radius
+     */
     public Circle(int x, int y, int radius) {
         this.x = x;
         this.y = y;

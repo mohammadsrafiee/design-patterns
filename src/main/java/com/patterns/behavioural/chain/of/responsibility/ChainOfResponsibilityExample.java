@@ -12,6 +12,9 @@ import com.patterns.behavioural.chain.of.responsibility.impl.*;
  */
 public class ChainOfResponsibilityExample {
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         LogBloc logBloc = new LogBloc();
         LoggerBase logger = new DebugLogger(

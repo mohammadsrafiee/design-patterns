@@ -8,28 +8,31 @@ import java.util.Random;
  */
 public class ChangeHeightCommand implements ICommand {
 
-	private Shape shape;
-	private int previuos;
+    private final Shape shape;
+    private final int previous;
 
-	public ChangeHeightCommand(Shape shape) {
-		this.shape = shape;
-		this.previuos = this.shape.getHeight();
-	}
+    /**
+     * @param shape
+     */
+    public ChangeHeightCommand(Shape shape) {
+        this.shape = shape;
+        this.previous = this.shape.getHeight();
+    }
 
-	@Override
-	public void execute() {
-		Random random = new Random();
-		this.shape.setHeight(random.nextInt(1000));
-	}
+    @Override
+    public void execute() {
+        Random random = new Random();
+        this.shape.setHeight(random.nextInt(1000));
+    }
 
-	@Override
-	public void undo() {
-		this.shape.setHeight(this.previuos);
-	}
+    @Override
+    public void undo() {
+        this.shape.setHeight(this.previous);
+    }
 
-	@Override
-	public String getTitle() {
-		return "Change Height";
-	}
+    @Override
+    public String getTitle() {
+        return "Change Height";
+    }
 
 }

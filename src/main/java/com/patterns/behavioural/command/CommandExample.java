@@ -9,6 +9,11 @@ import java.util.Random;
  * The conversion allows deferred or remote execution of commands, storing command history, etc.
  */
 public class CommandExample {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         CommandHistory history = new CommandHistory();
         Shape shape = new Shape();

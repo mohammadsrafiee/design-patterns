@@ -10,25 +10,37 @@ import java.util.Stack;
  */
 public class CommandHistory {
 
-	private Stack<ICommand> commands;
+    private final Stack<ICommand> commands;
 
-	public CommandHistory() {
-		this.commands = new Stack<>();
-	}
+    /**
+     *
+     */
+    public CommandHistory() {
+        this.commands = new Stack<>();
+    }
 
-	public void add(ICommand command) {
-		this.commands.push(command);
-	}
+    /**
+     * @param command
+     */
+    public void add(ICommand command) {
+        this.commands.push(command);
+    }
 
-	public void undo() {
-		if (this.commands.size() > 0) {
-			ICommand command = this.commands.pop();
-			command.undo();
-		}
-	}
+    /**
+     *
+     */
+    public void undo() {
+        if (this.commands.size() > 0) {
+            ICommand command = this.commands.pop();
+            command.undo();
+        }
+    }
 
-	public boolean isEmpty() {
-		return !(this.commands.size() > 0);
-	}
+    /**
+     * @return
+     */
+    public boolean isEmpty() {
+        return !(this.commands.size() > 0);
+    }
 
 }

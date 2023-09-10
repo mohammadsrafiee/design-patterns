@@ -2,6 +2,7 @@ package com.patterns.behavioural.iterator.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -18,11 +19,15 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  */
 public class BreadthFirstIterator implements ITreeIterator {
 
-	private Graph graph;
+	private final Graph graph;
 	private List<Integer> visitedNodes;
-	private Queue<Integer> queue;
+	private final Queue<Integer> queue;
 	private Integer currentNode;
 
+	/**
+	 *
+	 * @param collection
+	 */
 	public BreadthFirstIterator(ITreeCollection collection) {
 		this.visitedNodes = new ArrayList<Integer>();
 		this.queue = new ConcurrentLinkedQueue<Integer>();
@@ -50,7 +55,7 @@ public class BreadthFirstIterator implements ITreeIterator {
 			for (Integer target : adjaceny) {
 				boolean isVisited = false;
 				for (Integer visited : visitedNodes) {
-					if (visited == target) {
+					if (Objects.equals(visited, target)) {
 						isVisited = true;
 						break;
 					}

@@ -8,5 +8,9 @@ package com.patterns.creational.abstractfactory.impl.families;
  * This is the common interface for color family.
  */
 public interface Color {
+
+    /**
+     * 
+     */
     void fill();
 }

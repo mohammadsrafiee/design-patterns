@@ -2,31 +2,52 @@ package com.patterns.behavioural.observer.impl;
 
 import java.util.UUID;
 
+/**
+ *
+ */
 public abstract class StockSubscriber {
 
-	private String title;
-	private String id;
+    private String title;
+    private String id;
 
-	public StockSubscriber() {
-		this.setId(UUID.randomUUID().toString());
-	}
+    /**
+     *
+     */
+    public StockSubscriber() {
+        this.setId(UUID.randomUUID().toString());
+    }
 
-	public String getId() {
-		return id;
-	}
+    /**
+     * @return
+     */
+    public String getId() {
+        return id;
+    }
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    /**
+     * @param id
+     */
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public String getTitle() {
-		return title;
-	}
+    /**
+     * @return
+     */
+    public String getTitle() {
+        return title;
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    /**
+     * @param title
+     */
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-	public abstract void update(Stock stock);
+    /**
+     * @param stock
+     */
+    public abstract void update(Stock stock);
 
 }

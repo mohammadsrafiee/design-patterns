@@ -11,7 +11,7 @@ import java.util.Map;
  * <p>
  * <strong>Abstract Factory</strong> Abstract Factory is a creational design pattern,
  * which solves the problem of creating
- * <em><strong>entire product families</strong> without specifying their concrete classes.<em/>
+ * <em><strong>entire product families</strong> without specifying their concrete classes.</em>
  * </p>
  * <p>
  * Abstract Factory defines an interface for creating all distinct products but leaves
@@ -24,7 +24,6 @@ import java.util.Map;
  * This lets the client code work with any product variants, created by the factory object.
  * You just create a new concrete factory class and pass it to the client code.
  * </p>
- * <p>
  * <ul>
  *     <li>
  *         <strong><em>Intent</em></strong>: The intent of the Abstract Factory design pattern is to
@@ -42,18 +41,13 @@ import java.util.Map;
  *     <li>
  *         <strong><em>Structure</em></strong>:
  *         <ul>
- *             <li>Abstract Factory</li>:
- *             This is an interface or an abstract class that declares a set of creation methods for
- *             each type of product in the family. It represents the contract for concrete factories to follow.
- *             <li>Concrete Factories</li>: These are classes that implement the abstract factory
- *             interface. Each concrete factory is responsible for creating a family of related products.
- *             <li>Abstract Products</li>: These are interfaces or abstract classes that declare the
- *             common methods that all products in a family must implement.
- *             <li>Concrete Products</li>: These are classes that implement the abstract product interfaces.
- *             Concrete products belong to a specific family and implement the common methods defined by their
- *             corresponding abstract product.
- *             <li>Client</li>: The client code interacts with the abstract factory and the abstract product
- *             interfaces. It remains unaware of the specific concrete classes it uses, relying solely on the abstract interfaces.
+ *             <li>Abstract Factory:This is an interface or an abstract class that declares a set of
+ *             creation methods for each type of product in the family. It represents the contract for
+ *             concrete factories to follow.</li>
+ *             <li>Concrete Factories: These are classes that implement the abstract factory interface. Each concrete factory is responsible for creating a family of related products.</li>
+ *             <li>Abstract Products: These are interfaces or abstract classes that declare the common methods that all products in a family must implement.</li>
+ *             <li>Concrete Products: These are classes that implement the abstract product interfaces. Concrete products belong to a specific family and implement the common methods defined by their corresponding abstract product.</li>
+ *             <li>Client: The client code interacts with the abstract factory and the abstract product interfaces. It remains unaware of the specific concrete classes it uses, relying solely on the abstract interfaces.</li>
  *         </ul>
  *     </li>
  *     <li>
@@ -64,8 +58,6 @@ import java.util.Map;
  *         switch between different implementations.
  *     </li>
  * </ul>
- * </p>
- * <p>
  * By using the Abstract Factory pattern, you can achieve:
  * <ul>
  *     <li>
@@ -85,8 +77,6 @@ import java.util.Map;
  *         new concrete factories and products without altering existing code.
  *     </li>
  * </ul>
- * </p>
- * <p>
  * Here are a few real-world use cases where the Abstract Factory pattern can be applied effectively:
  * <ul>
  *     <li>
@@ -126,9 +116,12 @@ import java.util.Map;
  *         providing the necessary implementation details.
  *     </li>
  * </ul>
- * </p>
  */
 public class AbstractFactoryExample {
+
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
         Map<String, AbstractFactory> factories = new HashMap<>();

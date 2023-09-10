@@ -19,6 +19,10 @@ public interface ITreeCollection {
 	 * @return String
 	 */
 	String getTitle();
-	
+
+	/**
+	 *
+	 * @return
+	 */
 	Graph getGraph();
 }

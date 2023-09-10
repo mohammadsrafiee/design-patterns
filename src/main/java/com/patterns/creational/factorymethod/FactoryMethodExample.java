@@ -18,7 +18,6 @@ import java.util.Random;
  * still created via the new operator, but it’s being called from within the factory method.
  * Objects returned by a factory method are often referred to as products.
  * </p>
- * <p>
  * <ul>
  *     <li>
  *         <strong><em>Intent</em></strong>: The Factory Method pattern is used when you want to create
@@ -36,8 +35,6 @@ import java.util.Random;
  *         the creation process or object initialization.
  *     </li>
  * </ul>
- * </p>
- * <p>
  * Here are a few real-world use cases where the Factory Method pattern can be applied effectively:
  * <ul>
  *     <li>
@@ -68,7 +65,6 @@ import java.util.Random;
  *         vehicle can customize the creation process based on their unique characteristics.
  *     </li>
  * </ul>
- * </p>
  */
 public class FactoryMethodExample {
 

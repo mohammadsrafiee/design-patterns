@@ -12,14 +12,23 @@ public class CommandHistory {
 
     private final Stack<ICommand> history;
 
+    /**
+     *
+     */
     public CommandHistory() {
         this.history = new Stack<>();
     }
 
+    /**
+     * @param command
+     */
     public void add(ICommand command) {
         this.history.push(command);
     }
 
+    /**
+     *
+     */
     public void undo() {
         if (!this.history.isEmpty()) {
             ICommand command = this.history.pop();
@@ -27,6 +36,9 @@ public class CommandHistory {
         }
     }
 
+    /**
+     * @return
+     */
     public int getCommandCount() {
         return history.size();
     }

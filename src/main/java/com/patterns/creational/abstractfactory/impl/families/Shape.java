@@ -7,5 +7,9 @@ package com.patterns.creational.abstractfactory.impl.families;
  * This is the common interface for shape family.
  */
 public interface Shape {
+
+    /**
+     *
+     */
     void draw();
 }

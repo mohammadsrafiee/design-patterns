@@ -23,17 +23,22 @@ import com.patterns.creational.prototype.impl.products.ShapeType;
  *         and reduces the overhead of creating objects through complex initialization processes.
  *     </li>
  *     <li>
- *         <strong><em>Usage</em></strong>: 1) When creating new objects is more expensive than copying existing ones.
- *         2) To avoid complex and error-prone object initialization processes. 3) When you want to isolate
- *         changes in the created objects from the original ones. 4) In scenarios where a system needs to be
- *         independent of how its objects are created, composed, and represented.
+ *         <strong><em>Usage</em></strong>:
+ *         <ul>
+ *             <li>When creating new objects is more expensive than copying existing ones.</li>
+ *             <li>To avoid complex and error-prone object initialization processes.</li>
+ *             <li>When you want to isolate changes in the created objects from the original ones.</li>
+ *             <li>In scenarios where a system needs to be independent of how its objects are created, composed, and represented.</li>
+ *         </ul>
  *     </li>
  *     <li>
  *         <strong><em>Flexibility</em></strong>: The Prototype design pattern offers several benefits:
- *         1) It allows for the creation of new objects with minimal overhead.
- *         2) It promotes code reusability by using existing objects as templates.
- *         3) It separates the client code from the concrete classes being cloned, making the system more maintainable.
- *         4) It provides a way to create complex objects without specifying their exact classes.
+ *         <ul>
+ *             <li>It allows for the creation of new objects with minimal overhead.</li>
+ *             <li>It promotes code reusability by using existing objects as templates.</li>
+ *             <li>It separates the client code from the concrete classes being cloned, making the system more maintainable.</li>
+ *             <li>It provides a way to create complex objects without specifying their exact classes.</li>
+ *         </ul>
  *     </li>
  * </ul>
  * <p>
@@ -63,7 +68,6 @@ import com.patterns.creational.prototype.impl.products.ShapeType;
  *         you can use the Prototype pattern to clone database connections to improve performance and reduce overhead.
  *     </li>
  * </ul>
- * </p>
  */
 public class PrototypeExample {
 

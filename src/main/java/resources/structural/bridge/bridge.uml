@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="3.262316423029773" y="-14.806605318212462">com.patterns.structural.bridge.impl.Shape</node>
+    <node x="-78.57616465206318" y="451.9043464741573">com.patterns.structural.bridge.impl.VectorDrawingEngine</node>
+    <node x="218.25064407900192" y="429.74336451184377">com.patterns.structural.bridge.impl.RasterDrawingEngine</node>
+    <node x="-38.52183387409673" y="156.95911309613967">com.patterns.structural.bridge.impl.RectangleShape</node>
+    <node x="179.39062052912496" y="165.42550338846303">com.patterns.structural.bridge.impl.CircleShape</node>
+    <node x="202.28677837854798" y="315.42164531508826">com.patterns.structural.bridge.BridgeExample</node>
+    <node x="-95.34313928297587" y="315.6664164317042">com.patterns.structural.bridge.impl.DrawingEngine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.patterns.structural.bridge.impl.RectangleShape" target="com.patterns.structural.bridge.impl.Shape" relationship="GENERALIZATION">
+      <point x="78.49983387409672" y="-1.1309613967114274E-4" />
+      <point x="149.0" y="183.959" />
+      <point x="149.0" y="12.193000000000001" />
+      <point x="52.99968357697023" y="-3.9468178753665484E-4" />
+    </edge>
+    <edge source="com.patterns.structural.bridge.impl.CircleShape" target="com.patterns.structural.bridge.impl.Shape" relationship="GENERALIZATION">
+      <point x="-63.99962052912497" y="4.966115369597901E-4" />
+      <point x="149.0" y="192.426" />
+      <point x="149.0" y="12.193000000000001" />
+      <point x="52.99968357697023" y="-3.9468178753665484E-4" />
+    </edge>
+    <edge source="com.patterns.structural.bridge.impl.VectorDrawingEngine" target="com.patterns.structural.bridge.impl.DrawingEngine" relationship="REALIZATION">
+      <point x="1.6465206318372339E-4" y="-38.00034647415731" />
+      <point x="39.424" y="409.166" />
+      <point x="165.0" y="409.166" />
+      <point x="165.0" y="353.666" />
+      <point x="118.00013928297588" y="-4.164317041954746E-4" />
+    </edge>
+    <edge source="com.patterns.structural.bridge.impl.RasterDrawingEngine" target="com.patterns.structural.bridge.impl.DrawingEngine" relationship="REALIZATION">
+      <point x="3.5592099806081023E-4" y="-38.00036451184377" />
+      <point x="336.251" y="386.922" />
+      <point x="165.0" y="386.922" />
+      <point x="165.0" y="353.666" />
+      <point x="118.00013928297588" y="-4.164317041954746E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="189.5" y="266.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

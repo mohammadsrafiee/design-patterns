@@ -10,23 +10,26 @@ package com.patterns.behavioural.iterator.impl;
  */
 public class BreadthFirstTreeCollection implements ITreeCollection {
 
-	private Graph graph;
+    private final Graph graph;
 
-	public BreadthFirstTreeCollection(Graph graph) {
-		this.graph = graph;
-	}
+    /**
+     * @param graph
+     */
+    public BreadthFirstTreeCollection(Graph graph) {
+        this.graph = graph;
+    }
 
-	@Override
-	public ITreeIterator createIterator() {
-		return new BreadthFirstIterator(this);
-	}
+    @Override
+    public ITreeIterator createIterator() {
+        return new BreadthFirstIterator(this);
+    }
 
-	@Override
-	public String getTitle() {
-		return "Breadth-first";
-	}
+    @Override
+    public String getTitle() {
+        return "Breadth-first";
+    }
 
-	public Graph getGraph() {
-		return graph;
-	}
+    public Graph getGraph() {
+        return graph;
+    }
 }

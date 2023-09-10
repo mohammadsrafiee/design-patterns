@@ -12,7 +12,11 @@ public class ChangeColorCommand implements ICommand {
 
 	private final Shape shape;
 	private final Color previuos;
-	
+
+	/**
+	 *
+	 * @param shape
+	 */
 	public ChangeColorCommand(Shape shape) {
 		this.shape = shape;
 		this.previuos = this.shape.getColor();
